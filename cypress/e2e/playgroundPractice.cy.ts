@@ -26,4 +26,11 @@ describe('PLAYGROUND PRACTICE', () => {
         //     expect(el).to.be.visible
         // })
     });
+
+    it('Wait for element to be invisible', () => {
+        cy.get('#invisibility_trigger').click()
+
+        cy.get('#spinner_gone').should('have.text', 'Thank God that spinner is gone!')
+        // cy.contains('#spinner_gone', 'Thank God that spinner is gone!')
+    });
 });

@@ -10,7 +10,8 @@ export default defineConfig({
             stage:'https://stage.pasv.us/course',
             prod:'https://coding.pasv.us/course',
             info: 'Hello World',
-            base: 'http://uitestingplayground.com'
+            base: 'http://uitestingplayground.com',
+            playground: 'https://play1.automationcamp.ir/expected_conditions.html'
     }
   },
   defaultCommandTimeout: 16000

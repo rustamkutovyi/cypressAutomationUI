@@ -33,4 +33,12 @@ describe('PLAYGROUND PRACTICE', () => {
         cy.get('#spinner_gone').should('have.text', 'Thank God that spinner is gone!')
         // cy.contains('#spinner_gone', 'Thank God that spinner is gone!')
     });
+
+    it('Wait for element to be unabled and an attribure to contain certain text', () => {
+        cy.get('#enabled_trigger').should('be.visible').and('exist').click()
+
+        cy.get('#enabled_target').should('be.visible').and('have.text', 'Enabled Button').click()
+        cy.get('.popover-body').should('have.text', 'See, you just clicked me!!')
+
+    });
 });

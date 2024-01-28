@@ -41,4 +41,9 @@ describe('PLAYGROUND PRACTICE', () => {
         cy.get('.popover-body').should('have.text', 'See, you just clicked me!!')
 
     });
+
+    it.only('New title', () => {
+        cy.get('#page_title_trigger').click()
+        cy.title().should('eq', 'My New Title!')
+    });
 });

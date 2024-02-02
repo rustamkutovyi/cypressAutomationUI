@@ -11,6 +11,7 @@ export default defineConfig({
             prod:'https://coding.pasv.us/course',
             info: 'Hello World',
             base: 'http://uitestingplayground.com',
+            demoQa: 'https://demoqa.com',
             playground: 'https://play1.automationcamp.ir/expected_conditions.html'
     }
   },

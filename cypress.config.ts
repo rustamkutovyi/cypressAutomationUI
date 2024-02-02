@@ -15,6 +15,5 @@ export default defineConfig({
             playground: 'https://play1.automationcamp.ir/expected_conditions.html'
     }
   },
-  defaultCommandTimeout: 16000
 
 });

@@ -6,8 +6,9 @@ describe('LOGIN PAGE', () => {
     })
     
     it('Login with pageObject', () => {
-      LoginPage.submitButtonLogin()
+        LoginPage.submitButtonLogin()
 
         cy.contains('Log out')
     });
 });
+

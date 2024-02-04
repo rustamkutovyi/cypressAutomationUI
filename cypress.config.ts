@@ -12,6 +12,7 @@ export default defineConfig({
             info: 'Hello World',
             base: 'http://uitestingplayground.com',
             demoQa: 'https://demoqa.com',
+            textBox: 'https://demoqa.com',
             playground: 'https://play1.automationcamp.ir/expected_conditions.html'
     }
   },

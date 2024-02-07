@@ -13,7 +13,8 @@ export default defineConfig({
             base: 'http://uitestingplayground.com',
             demoQa: 'https://demoqa.com',
             textBox: 'https://demoqa.com',
-            playground: 'https://play1.automationcamp.ir/expected_conditions.html'
+            playground: 'https://play1.automationcamp.ir/expected_conditions.html',
+            herokuapp: 'https://the-internet.herokuapp.com'
     }
   },
 

@@ -1,21 +1,40 @@
 import { defineConfig } from "cypress";
 
+
 export default defineConfig({
+  reporter: 'cypress-mochawesome-reporter',
   e2e: {
     baseUrl: 'https://uitestingplayground.com',
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
       // implement node event listeners here
     },
     env: {
-            stage:'https://stage.pasv.us/course',
-            prod:'https://coding.pasv.us/course',
-            info: 'Hello World',
-            base: 'http://uitestingplayground.com',
-            demoQa: 'https://demoqa.com',
-            textBox: 'https://demoqa.com',
-            playground: 'https://play1.automationcamp.ir/expected_conditions.html',
-            herokuapp: 'https://the-internet.herokuapp.com'
+      stage: 'https://stage.pasv.us',
+      prod: 'https://coding.pasv.us/course',
+      info: 'Hello World',
+      base: 'http://uitestingplayground.com',
+      demoQa: 'https://demoqa.com',
+      textBox: 'https://demoqa.com',
+      playground: 'https://play1.automationcamp.ir/expected_conditions.html',
+      herokuapp: 'https://the-internet.herokuapp.com',
+      email: 'test1@example.com',
+      password: 'Qwerty1234'
     }
   },
 
+  retries: {
+    runMode: 3,
+    openMode: 2,
+  },
+  video: true,
+  screenshotOnRunFailure: true,
+  defaultCommandTimeout: 16000,
+  reporterOptions: {
+    charts: true,
+    reportPageTitle: 'LecturePasv',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
+  },
 });

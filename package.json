@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open --e2e --browser chrome",
-    "cypress-run": "cypress run --browser chrome --spec cypress/e2e/autofill.cy.ts"
+    "cypress-run": "cypress run --browser chrome --spec cypress/e2e/autofill.cy.ts",
+    "cypressTest": "cypress run --browser chrome --spec cypress/e2e/**" 
   },
   "author": "Rustam",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "cypress": "^13.6.2",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.8.1",
+    "node-xlsx": "^0.23.0",
     "typescript": "^5.3.3"
   }
 }

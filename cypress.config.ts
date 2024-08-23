@@ -30,6 +30,7 @@ export default defineConfig({
       info: 'Hello World',
       base: 'http://uitestingplayground.com',
       demoQa: 'https://demoqa.com',
+      webdriverUnivers: 'https://webdriveruniversity.com',
       textBox: 'https://demoqa.com',
       playground: 'https://play1.automationcamp.ir/expected_conditions.html',
       herokuapp: 'https://the-internet.herokuapp.com',

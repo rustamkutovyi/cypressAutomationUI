@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-23T05:52:21.787Z",
+    "end": "2024-08-23T05:52:25.242Z",
+    "duration": 3455,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "338ad14e-3ec1-4c77-8e1d-789c169f67b9",
+      "title": "",
+      "fullFile": "cypress/e2e/alert.cy.ts",
+      "file": "cypress/e2e/alert.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+          "title": "ALERT",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Click for JS alert",
+              "fullTitle": "ALERT Click for JS alert",
+              "timedOut": null,
+              "duration": 1013,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/alert.cy.ts\"\n}",
+              "code": "Alert_1.AlertPage.jsAlert();",
+              "err": {},
+              "uuid": "d857f0ca-2dfc-4ced-aed2-b57017dacffb",
+              "parentUUID": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click for JS confirm True",
+              "fullTitle": "ALERT Click for JS confirm True",
+              "timedOut": null,
+              "duration": 204,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/alert.cy.ts\"\n}",
+              "code": "Alert_1.AlertPage.jsConfimTrue();",
+              "err": {},
+              "uuid": "74e98fec-0df8-47b4-b869-493f09f5e1c9",
+              "parentUUID": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click for JS confirm False",
+              "fullTitle": "ALERT Click for JS confirm False",
+              "timedOut": null,
+              "duration": 193,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/alert.cy.ts\"\n}",
+              "code": "Alert_1.AlertPage.jsConfirmFalse();",
+              "err": {},
+              "uuid": "9817d772-d754-427f-91ba-a399b81b3450",
+              "parentUUID": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click for JS confirm Promt/true",
+              "fullTitle": "ALERT Click for JS confirm Promt/true",
+              "timedOut": null,
+              "duration": 215,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/alert.cy.ts\"\n}",
+              "code": "Alert_1.AlertPage.isPromptTrue();",
+              "err": {},
+              "uuid": "b154a5ff-4a7b-4fdc-96b5-0b7c24b8166c",
+              "parentUUID": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click for JS confirm Promt/false",
+              "fullTitle": "ALERT Click for JS confirm Promt/false",
+              "timedOut": null,
+              "duration": 207,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/alert.cy.ts\"\n}",
+              "code": "Alert_1.AlertPage.isPromptFalse();",
+              "err": {},
+              "uuid": "b8f9e6d8-90f9-44e8-8700-12522de68f9e",
+              "parentUUID": "4d262e3d-fe2b-4ccd-bed6-1e51e3040b9b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d857f0ca-2dfc-4ced-aed2-b57017dacffb",
+            "74e98fec-0df8-47b4-b869-493f09f5e1c9",
+            "9817d772-d754-427f-91ba-a399b81b3450",
+            "b154a5ff-4a7b-4fdc-96b5-0b7c24b8166c",
+            "b8f9e6d8-90f9-44e8-8700-12522de68f9e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1832,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "LecturePasv",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/html/.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
